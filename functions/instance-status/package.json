@@ -1,0 +1,12 @@
+{
+  "name": "aws-ec2-events-cloudwatch",
+  "description": "Expose AWS EC2 scheduled events as a CloudWatch Metric",
+  "author": {
+    "name": "Mark Baird",
+    "email": ""
+  },
+  "homepage": "https://github.com/markbaird/aws-ec2-events-cloudwatch",
+  "dependencies": {
+    "aws-sdk": "2.17.0"
+  }
+}

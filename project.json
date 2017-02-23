@@ -1,0 +1,12 @@
+{
+  "name": "aws-ec2-events-cloudwatch",
+  "description": "Expose AWS EC2 scheduled events as a CloudWatch Metric",
+  "nameTemplate": "{{.Function.Name}}",
+  "defaultEnvironment": "dev",
+  "memory": 512,
+  "timeout": 20,
+  "runtime": "nodejs4.3",
+  "hooks": {
+    "build": "npm install --production"
+  }
+}
